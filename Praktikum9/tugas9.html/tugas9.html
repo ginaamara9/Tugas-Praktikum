@@ -1,0 +1,13 @@
+<input type="text" id="num1"onchange="plusOperation()"/>
+<input type="text" id="num2"onchange="plusOperation()"/>
+<br>
+<span id="result"></span>
+
+<script>
+    function plus0peration() {
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+        let result = parseFloat(num1) + parseFloat(num2);
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
